@@ -1,0 +1,63 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "postcssSorting.config": {
+    "order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "at-rules",
+      "rules"
+    ],
+    "properties-order": [
+      "position",
+      "display",
+      "width",
+      "min-width",
+      "max-width",
+      "height",
+      "min-height",
+      "max-height",
+      "margin",
+      "margin-top",
+      "margin-bottom",
+      "margin-right",
+      "margin-left",
+      "padding",
+      "padding-top",
+      "padding-bottom",
+      "padding-right",
+      "padding-left",
+      "color",
+      "background",
+      "background-color",
+      "border",
+      "border-top",
+      "border-bottom",
+      "border-right",
+      "border-left",
+      "outline",
+      "font-size",
+      "font-font-family",
+      "text-align",
+      "cursor",
+      "overflow",
+      "z-index"
+    ]
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", ".module.scss"],
+  "stylelint.enable": true,
+  "javascript.format.enable": false,
+  "eslint.alwaysShowStatus": true,
+  "files.autoSave": "onFocusChange",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
